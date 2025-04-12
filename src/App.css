@@ -1,0 +1,108 @@
+
+.blogs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-data label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.add-data input,
+.add-data textarea {
+  width: 300px;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-data textarea {
+  height: 100px;
+}
+
+.add-data button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.add-data button:hover {
+  background-color: #45a049;
+}
+
+.postView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.postView h2 {
+  margin-bottom: 20px;
+}
+
+.list-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.listdisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.listdisplay strong {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.listdisplay p {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.listdisplay button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f44336;
+  color: white;
+  cursor: pointer;
+}
+
+.listdisplay button:hover {
+  background-color: #da190b;
+}
